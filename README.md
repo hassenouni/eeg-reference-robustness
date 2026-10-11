@@ -1,11 +1,4 @@
-# EEG Reference Robustness
-
-[![Technical validation](https://github.com/hassenouni/eeg-reference-robustness/actions/workflows/tests.yml/badge.svg)](https://github.com/hassenouni/eeg-reference-robustness/actions/workflows/tests.yml)
-
-**Reference Robustness and Cross-Patient Generalization of Preictal Scalp-EEG Connectivity**
-Hassen Ouni and Lotfi Saidi
-
-A modular Python implementation of the manuscript's EEG processing and analysis workflow. The repository covers patient selection, annotated window construction, window-wise ICA, spectral and connectivity estimation, weighted graph features, reference robustness, patient-independent validation, bidirectional external transfer, and patient-level inference.
+ The repository covers patient selection, annotated window construction, window-wise ICA, spectral and connectivity estimation, weighted graph features, reference robustness, patient-independent validation, bidirectional external transfer, and patient-level inference.
 
 ## Scientific objective
 
