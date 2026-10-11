@@ -1,5 +1,7 @@
 # EEG Reference Robustness
 
+[![Technical validation](https://github.com/hassenouni/eeg-reference-robustness/actions/workflows/tests.yml/badge.svg)](https://github.com/hassenouni/eeg-reference-robustness/actions/workflows/tests.yml)
+
 **Reference Robustness and Cross-Patient Generalization of Preictal Scalp-EEG Connectivity**
 Hassen Ouni and Lotfi Saidi
 
