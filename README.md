@@ -52,7 +52,6 @@ Scaling and classifier fitting use training data exclusively. Epochs are average
 
 ## Start here
 
-- [Reviewer guide](docs/REVIEWER_GUIDE.md): a short route through the implementation.
 - [Paper-to-code map](docs/PAPER_TO_CODE.md): manuscript sections and corresponding functions.
 - [Signal-processing protocol](docs/METHODS.md): equations, parameters, aggregation, and graph conventions.
 - [Data and annotations](docs/DATA.md): expected input layout and selection rules.
