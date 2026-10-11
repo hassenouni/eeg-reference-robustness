@@ -1,0 +1,13 @@
+{
+  "manuscript": "final paper full.docx",
+  "manuscript_sha256": "fa0396ef408a6481a9d84a979774171e21ec827fcd314433949a08814878324c",
+  "source_modules": {
+    "evaluation.py": "1c8bb541b247d69959df876a6612f3e369662cb3a348b846452d1e764ab764c5",
+    "features.py": "e0274dad0ff450771671256b43ee969d33cc9fbdb3ecc670d05a075fae61b21a",
+    "ica.py": "770c26c78a8dee9f87ac546435444067a2e010cf60b901b15a946ee4625fcad7",
+    "manifest.py": "1a49deaefe13cbff96a1b2cb06adec727e7d653004a5572338f20655dc154910",
+    "signals.py": "0a6adfeaf13fe60bb178b1b6b5017d25e8fd197afe3d03095082f191bb56cb21",
+    "workers.py": "3deb6c441577d141fe07f2f07a531fee777b669b309db36717080249fdc1f184"
+  },
+  "scope": "Implementation of the methods described in the final manuscript; no study execution performed for this code package."
+}

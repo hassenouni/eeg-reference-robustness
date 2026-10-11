@@ -1,0 +1,8 @@
+# Reference numerical environment. Install the project separately with pip install -e ".[dev]".
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+mne==1.12.1
+matplotlib==3.10.9
+threadpoolctl==3.6.0

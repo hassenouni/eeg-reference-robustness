@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and this implementation when using the software."
+title: "Reference Robustness and Cross-Patient Generalization of Preictal Scalp-EEG Connectivity: Methods Implementation"
+type: software
+authors:
+  - family-names: Ouni
+    given-names: Hassen
+  - family-names: Saidi
+    given-names: Lotfi
+version: 0.1.0
+keywords:
+  - EEG
+  - functional connectivity
+  - epilepsy
+  - reference robustness
+  - patient-independent validation
+repository-code: "https://github.com/hassenouni/eeg-reference-robustness"
+url: "https://github.com/hassenouni/eeg-reference-robustness"

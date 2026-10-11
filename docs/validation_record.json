@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-11",
+  "platform": "Windows",
+  "python": "3.10.11",
+  "tests_passed": 20,
+  "test_warnings": 0,
+  "editable_install": "passed",
+  "cli_help": "passed",
+  "synthetic_demo": {
+    "epochs": 119,
+    "spectral_features": 180,
+    "graph_features_per_measure": 5,
+    "classifier_fitted": false
+  },
+  "full_edf_execution": false,
+  "study_classifier_training": false
+}

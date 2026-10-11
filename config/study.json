@@ -1,0 +1,41 @@
+{
+  "data_root": "data",
+  "seed": 20260930,
+  "patients": null,
+  "cohort_sizes": {
+    "CHB-MIT": 18,
+    "Siena": 10
+  },
+  "fs": 256,
+  "window_s": 300,
+  "epoch_s": 5,
+  "step_s": 2.5,
+  "band_hz": [
+    1,
+    45
+  ],
+  "butter_order": 2,
+  "notch_hz": 50,
+  "notch_q": 30,
+  "filter_context_s": 10,
+  "max_lag_s": 0.5,
+  "welch_segment_s": 1,
+  "welch_overlap": 0.5,
+  "interictal_guard_s": 3600,
+  "interictal_per_preictal": 4,
+  "robustness_windows": 8,
+  "ica_mode": "fastica_required",
+  "ica": {
+    "fit_fs": 128,
+    "rank_relative_eigenvalue": 1e-08,
+    "max_iter": 2000,
+    "tol": 0.001,
+    "ocular_low_fraction": 0.6,
+    "ocular_frontal_fraction": 0.6,
+    "ocular_proxy_correlation": 0.6,
+    "muscle_high_fraction": 0.6,
+    "muscle_focal_fraction": 0.35
+  },
+  "annotation_overrides": {},
+  "schema_version": 1
+}

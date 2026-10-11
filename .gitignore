@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+outputs/
+data/
+*.edf
+*.EDF
+*.bdf
+*.npz
+*.log
+.DS_Store
+Thumbs.db
+
+# Patient-derived selection artifacts stay local.
+manifests/*.csv
+manifests/*.json
