@@ -118,7 +118,6 @@ tests/                     Synthetic numerical and workflow tests
 manifests/                 Manifest guidance; real patient/window records are generated locally
 docs/                      Methods, traceability, data, and reviewer documentation
 scripts/                   Synthetic demonstration and release packaging
-.github/workflows/         Automated test workflow
 ```
 
 The manuscript defines the scientific protocol. Explicit implementation conventions for details such as disconnected graph paths, feature ordering, and annotation handling are recorded in [METHODS.md](docs/METHODS.md). Technical tests check software behavior; they do not constitute a full EDF study execution.

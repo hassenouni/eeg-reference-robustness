@@ -7,4 +7,4 @@
 
 **Topics:** `eeg`, `epilepsy`, `functional-connectivity`, `signal-processing`, `independent-component-analysis`, `graph-theory`, `seizure-prediction`, `reproducible-research`, `python`.
 
-The README contains the scientific objective, workflow diagram, analysis components, setup, command examples, and links to detailed methods. GitHub Actions runs the technical test suite on Linux and Windows.
+The README contains the scientific objective, workflow diagram, analysis components, setup, command examples, and links to detailed methods. The technical test suite can be run locally.

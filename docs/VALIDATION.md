@@ -8,7 +8,7 @@ python -m pytest -q
 
 Checks cover full-window epoch counts, flat-signal rejection, CC against SciPy's direct correlation, corCC lag asymmetry, coherence against SciPy's independent estimator, wPLI against an explicit segment calculation, known weighted graph identities, train-only scaling, patient separation, statistics, annotation guards, montage construction, ICA criteria and reconstruction, and sensitivity without retraining.
 
-The CI workflow is configured for Windows/Linux and Python 3.10/3.11. A local test run is distinct from a successful remote GitHub CI run. No CI badge is asserted before publication.
+The technical test suite is run manually with the command above. No automated GitHub workflow is included.
 
 `requirements.txt` records a pinned reference numerical environment. Package version numbers, configuration, implementation SHA-256, and input sample fingerprints are recorded by actual extraction runs. Small floating-point differences can depend on numerical libraries and hardware.
 
