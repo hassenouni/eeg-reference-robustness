@@ -43,7 +43,7 @@ For frequency estimators, each 5 s epoch contains nine 1 s segments, with 0.5 s 
 - **COH:** `abs(mean(Z_k))**2 / (mean(abs(X_i,k)**2)*mean(abs(X_j,k)**2))`.
 - **wPLI:** `abs(mean(imag(Z_k))) / mean(abs(imag(Z_k)))`.
 
-Use zero when a denominator is zero. wPLI is classical, unsquared, and not debiased. Compute each estimator per frequency, then take the arithmetic mean over 45 bins from 1 through 45 Hz. The sign convention for the cross-spectrum does not change either magnitude-based estimator.
+Use zero when a denominator is zero. wPLI is classical, unsquared, and not debiased. Compute each estimator per frequency, then take the arithmetic mean over 45 bins from 1 through 45 Hz. The sign convention for the cross-spectrum does not change either magnitude-based estimator. For wPLI, the imaginary cross-product is evaluated explicitly as `real(X_i)*imag(X_j) - imag(X_i)*real(X_j)` to preserve exact cancellation for identical signals across numerical backends.
 
 ## Five weighted graph features
 

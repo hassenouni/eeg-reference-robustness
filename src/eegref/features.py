@@ -64,7 +64,10 @@ def connectivity(x, config):
         denom = auto[:, i]*auto[:, j]
         c = np.divide(np.abs(cross.mean(axis=-2))**2, denom, out=np.zeros_like(denom), where=denom > 0)
         coh[:, first:first+16] = np.clip(c, 0, 1).mean(axis=-1)
-        imag = cross.imag
+        # Evaluate Im(conj(X)*Y) explicitly: complex multiplication can leave
+        # spurious imaginary roundoff for identical signals on SIMD/FMA builds.
+        # Equal real products subtract exactly, preserving the zero-lag null.
+        imag = ft[:, i].real*ft[:, j].imag - ft[:, i].imag*ft[:, j].real
         denom = np.abs(imag).mean(axis=-2)
         # Mean over Welch subsegments per frequency, then broadband mean.
         p = np.divide(np.abs(imag.mean(axis=-2)), denom, out=np.zeros_like(denom), where=denom > 0)
